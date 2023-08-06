@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(lightblue, pink);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ty {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+h1, h2, h4, p, h3 {
+    text-shadow: 0px 0px 3px black;
+}
+
+#age {
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0;
+}
+
+#birthyear {
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapping-paper {
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 400px;
+    background-image: url(images/wrapping\ paper.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.wrapping-paper2{
+    width: 800px;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 400px;
+    background-image: url(images/wrapping\ paper.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#gif-happy:hover {
+    background-image: url(images/giphy\ happy.gif);
+}
+
+#gif-hot:hover {
+    background-image: url(images/giphy\ hot.gif);
+}
+
+#gif-smart:hover {
+    background-image: url(images/giphy\ smart.gif);
+}
+
+#gif-badass:hover {
+    background-image: url(images/giphy\ badass.gif);
+}
+
+#gif-cheers:hover {
+    background-image: url(images/giphy\ cheers.gif);
+}
+
+a {
+    color: white;
+}
+
+.gift {
+    margin-top: 50px;
+}
+
+.hover{
+    margin-bottom: 10px;
+}
